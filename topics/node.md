@@ -1,4 +1,4 @@
-### Create a Server
+# Create a Server
 
 ```javascript
 const http = require('http');
@@ -7,14 +7,14 @@ http.createServer((req, res) => {});
 
 server.listen(3000, 'localhost', () => {});
  ```
-### Setting the Content Type
+# Setting the Content Type
 
 ```javascript
 res.setHeader('Content-Type', 'text/html'); //put this in create server function
                                             //uses html as an example
 
 ```
-### Using the File System 
+# Using the File System 
 
 ```javascript
 const fs = require('fs');
@@ -50,5 +50,5 @@ fs.rmdir('./PathToDir', (err) => {});
 fs.unlink('./PathToFile', (err) => {});
 ```
 
-### Streams & Buffers
+# Streams & Buffers
  
